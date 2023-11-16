@@ -1,0 +1,5 @@
+package Repositorios;
+
+@Repository
+public interface Repositorio_Usuario extends CrudRepository<Usuario,Long>{
+}
